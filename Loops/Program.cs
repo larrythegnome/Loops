@@ -11,8 +11,9 @@ namespace Loops
         static void Main(string[] args)
         {
             //ForLoop();
-            forEachLoop();
-            WhileLoop();
+            //forEachLoop();
+            //WhileLoop();
+            //DoWhileLoop();
             Console.ReadLine();
         }
 
