@@ -12,6 +12,7 @@ namespace Loops
         {
             //ForLoop();
             forEachLoop();
+            WhileLoop();
             Console.ReadLine();
         }
 
@@ -42,6 +43,27 @@ namespace Loops
             {
                 Console.WriteLine($"I like {item}");
             }
+        }
+
+        static void WhileLoop()
+        {
+            int i = 0;
+
+            while (i < 11)
+            {
+                Console.WriteLine($"i = {i}");
+                i++;
+            }
+        }
+
+        static void DoWhileLoop()
+        {
+            int i = 0;
+            do
+            {
+                Console.WriteLine($"Hey there dude. {i}");
+                i++;
+            } while (i > 10);
         }
     }
 }
